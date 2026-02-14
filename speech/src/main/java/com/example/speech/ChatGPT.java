@@ -12,7 +12,11 @@ public class ChatGPT {
 
         con.setRequestMethod("POST");
         con.setRequestProperty("Content-Type", "application/json");
+<<<<<<< HEAD
         con.setRequestProperty("Authorization", "Bearer ");
+=======
+       // con.setRequestProperty("Authorization", "Bearer ");
+>>>>>>> 9ad7724 (correcting after removing secret)
 
         JSONObject data = new JSONObject();
         data.put("model", "text-davinci-003");

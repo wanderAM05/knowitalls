@@ -1,0 +1,93 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AdaptationCustomClassReferenceV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.AdaptationCustomClassReferenceV2",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "AdaptationInlineCustomClassV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.AdaptationInlineCustomClassV2",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "AdaptationInlinePhraseSetV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.AdaptationInlinePhraseSetV2",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "AdaptationPhraseSetReferenceV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.AdaptationPhraseSetReferenceV2",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "CreateRecognizerV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.CreateRecognizerV2",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteStreamRecognize",
+            "request": "launch",
+            "mainClass": "com.example.speech.InfiniteStreamRecognize",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "QuickstartSample",
+            "request": "launch",
+            "mainClass": "com.example.speech.QuickstartSample",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "QuickstartSampleV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.QuickstartSampleV2",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "Recognize",
+            "request": "launch",
+            "mainClass": "com.example.speech.Recognize",
+            "projectName": "google-cloud-speech-snippets",
+            "args": "micstreamrecognize"
+        },
+        {
+            "type": "java",
+            "name": "RecognizeBeta",
+            "request": "launch",
+            "mainClass": "com.example.speech.RecognizeBeta",
+            "projectName": "google-cloud-speech-snippets"
+        },
+        {
+            "type": "java",
+            "name": "TranscribeFileV2",
+            "request": "launch",
+            "mainClass": "com.example.speech.TranscribeFileV2",
+            "projectName": "google-cloud-speech-snippets"
+        }
+    ]
+}
